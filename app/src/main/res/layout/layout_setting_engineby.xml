@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/SubHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0f0f0"
+        android:clickable="false"
+        android:text="Powered" />
+
+    <TextView
+        android:id="@+id/tv_engine_by"
+        style="@style/Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textview_bg"
+        android:clickable="true"
+        android:text="Get Apps Studio" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.55dp"
+        android:background="#f0f0f0"></View>
+
+</LinearLayout>
